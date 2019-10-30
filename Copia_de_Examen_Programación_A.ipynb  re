@@ -1,0 +1,578 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copia de Examen Programación - A.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/andrea248/UNMSM_programacion/blob/master/Copia_de_Examen_Programaci%C3%B3n_A.ipynb%20%20re\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "y7Oq4Se1jAkk",
+        "colab_type": "text"
+      },
+      "source": [
+        "# EXAMEN PARCIAL DE PROGRAMACIÓN - A"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "d6Dtx5cijHuN",
+        "colab_type": "text"
+      },
+      "source": [
+        "Nombres y apellidos: \n",
+        "\n",
+        "Código: "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "V2Gv10h-SbX4",
+        "colab_type": "text"
+      },
+      "source": [
+        "***\n",
+        "Instrucciones:\n",
+        "- El examen es personal\n",
+        "- Se puede usar internet\n",
+        "- Una vez terminado, descargar en formato **.ipynb** su examen con su código de estudiante y subir a esta [carpeta compartida](https://drive.google.com/drive/u/0/folders/1eBFAtL33yaYqMgKdX1NbunjEAhRqoSGX) (ejemplo: 17160099.ipynb)\n",
+        "***"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "2NrjVzQIjRH2",
+        "colab_type": "text"
+      },
+      "source": [
+        "## Nivel 1 (1 pt c/u)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "qCk2aiwfj47k",
+        "colab_type": "text"
+      },
+      "source": [
+        "1. Cuáles son los lenguajes básicos para crear una página web."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "7cdaX45LnRMW",
+        "colab_type": "text"
+      },
+      "source": [
+        "Lenguaje JavaScript\n",
+        "Lenguaje PHP\n",
+        "Lenguaje Python\n",
+        "Lenguaje Ruby"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "UVTdV9izj6bV",
+        "colab_type": "text"
+      },
+      "source": [
+        "2. Explicar cómo crear un repositorio virtual en Github y subir archivos a este."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "NQJ2ALO5oseq",
+        "colab_type": "text"
+      },
+      "source": [
+        "Primero tienes que tener una cuenta creada en Github para poder crear repositorios y subir archivos. Inicia sesión con tu usuario y contraseña y luego has click en Nuevo Repositorio  debes de colocar un nombre separado por guiones medio o guiones bajo por ejemplo nombre_de_tu_repositorio y activar el checkbox que dice Initialize this repository with a README  para crear tu primero archivo en el repositorio, este archivo README se usa para colocar una descripción de tu proyecto, bien haces clic en el botón Create repository para crear el repositorio\n",
+        "Con ello ya creaste tu primer repositorio y el primer archivo de tu proyecto, ahora para subir varios archivos de tu proyecto has clic en Upload Files En este punto tienes 2 opciones para subir archivos a tu repositorio, seleccionando una ventana para abrir los archivos o arrastrando los archivos al repositorio, nosotros recomendamos arrastrar y soltar los archivos ya que tiene mediante esta manera tienes más capacidad de subir múltiples archivos Una ves que termines de cargar tus archivos has clic en Commit changes para guardar Listo, ya tienes tu repositorio para tu proyecto creado,  ahora has clic en el lápiz para editar tu archivo README Luego de editar nuestro archivo README guardamos los cambios y ya tendríamos nuestro primer repositorio creado listo para gestionarlo"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TtoAf5SzkUrK",
+        "colab_type": "text"
+      },
+      "source": [
+        "3. Explicar las diferencias entre el modo apertura **lectura** y **escritura**."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "CobNyMqkqxgW",
+        "colab_type": "text"
+      },
+      "source": [
+        "- Modo de sólo lectura (r). En este caso no es posible realizar modificaciones sobre el archivo, solamente leer su contenido.\n",
+        "- Modo de sólo escritura (w). En este caso el archivo es truncado (vaciado) si existe, y se lo crea si no existe.\n",
+        "- Modo sólo escritura posicionándose al final del archivo (a). En este caso se crea el archivo, si no existe, pero en caso de que exista se posiciona al final, manteniendo el contenido original"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "s5KOFqH9k0JV",
+        "colab_type": "text"
+      },
+      "source": [
+        "4. ¿La siguiente expresión es válida? Explicar por qué.\n",
+        "         x = \"hello!\"\n",
+        "         x *= \"world\""
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "QDTfPELzlu7a",
+        "colab_type": "text"
+      },
+      "source": [
+        "5. Mencionar 3 librerías para el lenguaje Python."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "sYh_iFXBrFh4",
+        "colab_type": "text"
+      },
+      "source": [
+        "kivy\n",
+        "Pyweather\n",
+        "Pyqt\n",
+        "Pygtk\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "GF3My8OX-jiE",
+        "colab_type": "text"
+      },
+      "source": [
+        "6. Calcule el resto de la siguiente ecuación\n",
+        "\n",
+        "$$ \\frac {3^3 - \\sqrt{6^2 - 5^2}} {12} $$"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "tpT1f1W5mSxr",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "4e9c45ab-3092-4292-f860-57ec3574531d"
+      },
+      "source": [
+        "((3**3)-(6**2-5**2)**0.5)/12"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "1.9736146008037168"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 2
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "X7GmTqRAKErt",
+        "colab_type": "text"
+      },
+      "source": [
+        "7. Crear un diccionario con 3 llaves y que sus valores sean tuplas o listas. Finalmente guardalo como archivo **json**."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "QSPXazJHmDn_",
+        "colab_type": "text"
+      },
+      "source": [
+        "## Nivel 2 (2 pt c/u)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "80fxdaFCq6Zy",
+        "colab_type": "text"
+      },
+      "source": [
+        "1. Escribir una función que elimine de una lista dada todos los elementos repetidos y devuelvalos elementos de la lista sin repeticiones."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "i9CYuGNOtk01",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "470d792c-7e41-4a6e-c57d-0dfa24be0ba8"
+      },
+      "source": [
+        "mj = [2, 4, 4, 4, 4, 4, 9, 9]\n",
+        "mj2 = set(mj)\n",
+        "mj2 = set([9, 2, 4])\n",
+        "list(mj2) \n",
+        "sorted(list(mj2))"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[2, 4, 9]"
+            ]
+          },
+          "metadata": {
+            "tags": []
+          },
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xlTKqgTLz2Eb",
+        "colab_type": "text"
+      },
+      "source": [
+        "2. Crear una función que muestre los n primeros números primos."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "dxH1zdLI1Egw",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 459
+        },
+        "outputId": "31d4b958-eb60-4f2d-ac97-2af398d3d913"
+      },
+      "source": [
+        "i=1\n",
+        "x = int(input(\"Enter the number:\"))\n",
+        "for k in range (1, (x+1), 1):\n",
+        "    c=0\n",
+        "    for j in range (1, (i+1), 1):\n",
+        "        a = i%j\n",
+        "        if (a==0):\n",
+        "            c = c+1\n",
+        "\n",
+        "    if (c==2):\n",
+        "          print (i)\n",
+        "    else:\n",
+        "          k = k-1\n",
+        "\n",
+        "    i=i+1"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the number:100\n",
+            "2\n",
+            "3\n",
+            "5\n",
+            "7\n",
+            "11\n",
+            "13\n",
+            "17\n",
+            "19\n",
+            "23\n",
+            "29\n",
+            "31\n",
+            "37\n",
+            "41\n",
+            "43\n",
+            "47\n",
+            "53\n",
+            "59\n",
+            "61\n",
+            "67\n",
+            "71\n",
+            "73\n",
+            "79\n",
+            "83\n",
+            "89\n",
+            "97\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xUCYTvIt9V7L",
+        "colab_type": "text"
+      },
+      "source": [
+        "3. Realizar una función que pida el valor de los tres lados de un triángulo y demuestre su existencia."
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "d8HeIR1J18Kw",
+        "colab_type": "text"
+      },
+      "source": [
+        "## Nivel 3 (3 pt c/u)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "_NLJHa9_088m",
+        "colab_type": "text"
+      },
+      "source": [
+        "1. Crear una función que invierta una frase e identifique si es palíndroma o no.\n",
+        "\n",
+        "    Ejemplo: \n",
+        "\n",
+        "    **\"Anita lava la tina\" --> \"anit al aval atinA\" (Es palíndroma)**\n",
+        "\n",
+        "    **\"Hola mundo\" --> \"odnum aloH\"                 (No es palíndroma)**"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "na8KfWvt4PAM",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "b6d3d5ea-7711-4369-faf7-1fe7a7250465"
+      },
+      "source": [
+        "print ((\"anita lava la tina\")[::-1])"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "anit al aval atina\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Pm8Zx29p4Rv7",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "40534e1c-7721-4228-98ff-563791da7172"
+      },
+      "source": [
+        "def palindromo(palabra):\n",
+        "    palabra_procesada = palabra\n",
+        "    x= palabra_procesada[::-1]\n",
+        "    if x == palabra_procesada:\n",
+        "        print(\"la palabra {} es un palindromo\".format(palabra))\n",
+        "    else:\n",
+        "        print(\"la palabra {} no es un palindromo\".format(palabra))\n",
+        "\n",
+        "palindromo(\"anitalavalatina\")"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "la palabra anitalavalatina es un palindromo\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "aGu8vTil2Ri7",
+        "colab_type": "text"
+      },
+      "source": [
+        "2. Crear una función que cuente la cantidad de letras que se repiten en un texto y las devuelva en un diccionario.\n",
+        "\n",
+        "    Ejemplo:\n",
+        "    \n",
+        "    **\"bienvenido\"**\n",
+        "    \n",
+        "    **{\"b\":1, \"i\":2, \"e\":2, \"n\":2, \"v\":1, \"d\":1, \"o\":1}**\n",
+        "    "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "TlOFiJM2CJF9",
+        "colab_type": "text"
+      },
+      "source": [
+        "3. Crear una función para calcular el área de una sección circular.\n",
+        "\n",
+        "![](http://www.disfrutalasmatematicas.com/geometria/images/circle-arc-length.gif)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "z7QFQIIN4wTx",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "def area_seccir(longitud,radio):\n",
+        "\t\"\"\"Funcion que hace operacion para calcula el area de un seccir\"\"\"\n",
+        "\tarea = (longitud*radio)/2 \n",
+        "\tprint (\"El area es: \",area)"
+      ],
+      "execution_count": 0,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "pva42xjm414Q",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "398b1c0c-165c-48fb-b671-365b1d62c732"
+      },
+      "source": [
+        " area_seccir(10,3)"
+      ],
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "El area es:  15.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kjCoXuAdWhyO",
+        "colab_type": "text"
+      },
+      "source": [
+        "4. Crear una lista con los nombres de todas las ciudades del archivo [sudamerica.json](https://github.com/ryali93/UNMSM_programacion/blob/master/data/sudamerica.json)\n",
+        "\n",
+        "    Ayuda: *descargar el archivo JSON con la opción Raw*"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "1G5Rp42x3KHa",
+        "colab_type": "text"
+      },
+      "source": [
+        "## Nivel 4 (4 pt):"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "KGJx9ZQRDwba",
+        "colab_type": "text"
+      },
+      "source": [
+        "1. Un ingeniero está realizando el diseño de un canal de regadío para un pequeño pueblo, cree una función para que, dependiendo del tipo de sección que usará, pueda saber el área, perímetro mojado, radio hidráulico y espejo de agua de su sección. (Elegir 2 tipos de sección)\n",
+        "\n",
+        "![](https://upload.wikimedia.org/wikipedia/commons/5/59/Radio_Hidr%C3%A1ulico_geometria_fundamental.gif)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "wPPUwC7I3Ohq",
+        "colab_type": "text"
+      },
+      "source": [
+        "2. Teniendo las listas:\n",
+        "\n",
+        "    x = [8, 2, 11, 6, 5, 4, 12, 9, 6, 1]\n",
+        "    \n",
+        "    y = [3, 10, 3, 6, 8, 12, 1, 4, 9, 14]\n",
+        "    \n",
+        "    Calcule la pendiente de la recta\n",
+        "\n",
+        "    $$ m = \\frac {\\sum{xy} - \\frac{(\\sum{x}) (\\sum{y})}n} {\\sum{x}^2 - {\\frac {(\\sum{x})^2}n}} $$\n",
+        "\n",
+        "    Calcule la intercepción en **y** de la forma\n",
+        "\n",
+        "    $$ b = \\bar{y} - m\\bar{x} $$\n",
+        "\n",
+        "    Use la pendiente y la intercepción en y para formar la ecuación de la recta."
+      ]
+    }
+  ]
+}
